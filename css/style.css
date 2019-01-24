@@ -1,0 +1,375 @@
+/*****************global*********/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h2,h3{
+    text-transform: capitalize;
+}
+[type="button"]{
+    background: none;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    color: aliceblue;
+    margin: 1.5em;
+    border: 2px solid #fff; 
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+/**************header***********************/
+.header .nav{
+    background-color: #333;
+    overflow: hidden;
+    position:relative;
+    top: -12px;
+}
+.header .nav span{
+    color: #1ED56B;
+}
+.header .nav h2{
+    float: left;
+    font-size: 1.6em;
+    color: aliceblue;
+    text-transform: uppercase;
+    position: absolute;
+
+    }
+.header .nav ul {
+    list-style: none;
+    padding: 10px 8% 0px 0;
+    float: right;
+}
+.header .nav ul li{
+    display: inline-block;
+    font-size: 0.9em;
+    color: aliceblue;
+    padding-left: 1.7em;
+    text-transform: uppercase;
+}
+.header{
+    height: 588px;
+    background-color: brown;
+}
+.header .cover{
+    height: 600px;
+    background-image:url(../images/3.jpg);
+    background-size: cover;
+   text-align: center;
+    padding-top: 200px;
+}
+.header .cover h2{
+    padding: 0.5em 0;
+    font-size: 3em;
+    width: 630px;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+    margin: auto;
+    text-transform: capitalize;
+}
+   /*----------------------body----------------------*/
+.container .main {
+    background-color: #ffffff;
+    width: 1000px;
+    margin: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 45PX ;
+}
+.aboutme{
+    width: 100%;
+    display:inline-block;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: auto;
+}
+
+.aboutme .me{
+    padding-left: 10%;
+    background-color: #F2F2F2;
+    
+}
+.aboutme .me .icon{
+    font-size: 2em;
+    color: #37CD73;
+    
+    
+}
+.aboutme .me h3{
+    display: inline-block;
+    padding: 2%;
+    
+}
+
+.aboutme .me .ability{
+    position: relative;
+    width: 70%;
+    display: flex;
+}
+.aboutme p {
+    text-align: center;
+    width: 80%
+}
+/******************skills****************/
+.myskills .container{
+    display: flex;
+    padding-bottom: 5%;
+}
+.myskills .container .my{
+    width: 50%;
+    padding: 2%;
+    color: #444;
+}
+.myskills .container .my [type="button"]{
+     background: none;
+    border: 2px solid #2fc173;
+    padding: 10px;
+    color: #2fc173;
+    font-weight: bold
+    
+}
+.myskills .container .skills{
+    padding: 2%;
+    width: 50%;
+    padding-top: 5%
+    
+}
+.myskills .container .skills label{
+    color: #444;
+    display: block;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    
+    
+}
+.myskills .container .skills div{
+    display: block;
+    background-color: #f1f1f1;
+    height: 8%;
+    width: 100%;
+    
+        
+    }
+.myskills .container .skills div span{
+    display: block;
+    background-color: #2fc173;
+    color: #fff;
+    text-align: right;
+    height: 100%;
+}
+/******************resume****************/
+.resume{
+    text-align: center;
+    height: 300px;
+    padding: 3% 15%;
+    background-color: #F2F2F2;
+    color: #444;
+    position: relative;
+}
+.resume:after{
+    bottom: -39px;
+    right: 50%;
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 20px solid #F2F2F2;
+    border-color:  #F2F2F2 transparent transparent  transparent;
+    
+}
+.resume input[type="button"]{
+     background: none;
+    border: 2px solid #2fc173;
+    padding: 10px;
+    color: #2fc173;
+    font-weight: bold
+    
+}
+/******************My Education****************/
+.education .container{
+    display: flex;
+    color: #444;
+    padding-bottom: 5%;
+    
+}
+.education .container .Educate{
+    padding: 5% ;
+    height: 500px;
+    width: 50%;
+}
+
+.education .container .degree{
+    width: 50%;
+    padding:10% 10% 0% 1% ;
+}
+.education .container .degree div div span{
+    background-color: #2fc173;
+    color: aliceblue;
+    padding: 1.5%;
+    margin: 3% 0 ;
+    
+}
+.education .container .degree div div{
+    padding: 3% 0%;
+}
+/******************slider****************/
+.slider {
+     text-align: center;
+    height: 300px;
+    padding: 3% 15%;
+    background-color: #F2F2F2;
+    color: #444;
+}
+.slider ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 5%
+}
+.slider ul li{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #2fc173;
+    display: inline-block;
+    border-radius: 50%;
+}
+.slider  ul  .active,
+.slider  ul li:hover {
+    background-color: #2fc173;
+}
+
+/******************profile****************/
+
+.container .profile h2{
+    text-align: center;
+}
+
+.container .total img{
+    
+    width: 30%;
+    height: 250px;
+    margin: 10px;
+    float: left;
+    
+
+}
+
+.total{
+    overflow: hidden;
+    width: 100%;
+
+   
+}
+   /*----------------------footer----------------------*/
+.footer{
+    background-color: #252F31;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.footer .contact{
+    font-family: arial;
+    color: #ECEDEF;
+  height: 60%;
+    width: 40%;
+}
+
+.footer .contact h2{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.footer .contact p{
+    color: #575C60;
+}
+.footer .contact p span{
+    color: #ECEDEF;
+    text-transform: uppercase;
+    
+
+}
+.footer .contact1 {
+    width: 40%;
+    height: 80%;
+   
+    
+}
+.footer .contact1 form{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left:15%;
+    margin-top: 20%
+        
+}
+.footer .contact1 form label{
+    display: block;
+    margin-bottom: 3%;
+     color: aliceblue;
+    font-family: arial;
+    
+}
+.footer .contact1 form input {
+    margin-bottom: 3%;
+    display: block;
+     background-color: #4b5557;
+    border: 0px;
+    height: 7%;
+    width: 90%;
+     margin-left: 0px;
+    font-family: arial;
+    color: aliceblue;
+
+}
+.footer .contact1 form #m {
+    height: 30%;
+    width: 90%;
+    margin-bottom: 3%;
+}
+.footer1{
+    background: #191E22;
+    height: 130px;
+    width: 100%;
+}
+.footer1 .copy p {
+    padding: 20px 0px 20px 0px;
+
+    width: 30%;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+    color: #495355;
+
+}
+.footer1 .social {
+    text-align: center;
+    font-size: 2em;
+    color: #495355;
+    position: relative;
+}
+.footer1 .social i {
+    margin-right: 5px;
+    
+
+}
+.footer1 .social i:hover {
+    cursor: pointer;
+    position: absolute;
+    transform: rotate(360deg) ;
+    transition: all 2sec ease-in-out;
+    color: aliceblue;
+}
+
